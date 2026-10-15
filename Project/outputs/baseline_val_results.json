@@ -1,0 +1,9 @@
+{
+  "model": "TF-IDF + Logistic Regression",
+  "split": "validation",
+  "accuracy": 0.7128,
+  "macro_precision": 0.7353,
+  "macro_recall": 0.7211,
+  "macro_f1": 0.722,
+  "n_features": 11837
+}
