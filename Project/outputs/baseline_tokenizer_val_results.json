@@ -1,0 +1,13 @@
+{
+  "model": "Baseline (LogReg)",
+  "feature_extraction": "tokenizer",
+  "split": "validation",
+  "accuracy": 0.5924,
+  "macro_precision": 0.5991,
+  "macro_recall": 0.6004,
+  "macro_f1": 0.5979,
+  "extractor": "tokenizer subword + embedding layer indobenchmark/indobert-base-p1 (beku) + mean pooling",
+  "n_features": 768,
+  "tokenizer_vocab_size": 30521,
+  "max_len": 128
+}

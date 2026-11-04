@@ -1,0 +1,12 @@
+{
+  "model": "Baseline (LogReg)",
+  "feature_extraction": "embeddings",
+  "split": "validation",
+  "accuracy": 0.6512,
+  "macro_precision": 0.6731,
+  "macro_recall": 0.6564,
+  "macro_f1": 0.6588,
+  "extractor": "Word2Vec skip-gram (gensim, dari train) + mean pooling",
+  "n_features": 128,
+  "vocab_size": 5714
+}

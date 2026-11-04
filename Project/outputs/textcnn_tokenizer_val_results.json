@@ -1,0 +1,16 @@
+{
+  "model": "TextCNN",
+  "feature_extraction": "tokenizer",
+  "split": "validation",
+  "accuracy": 0.7403,
+  "macro_precision": 0.7461,
+  "macro_recall": 0.7572,
+  "macro_f1": 0.7492,
+  "extractor": "tokenizer subword + embedding layer indobenchmark/indobert-base-p1 (beku) -> Conv1d dilatih",
+  "emb_dim": 768,
+  "max_len": 128,
+  "vocab_size": 50000,
+  "epochs": 15,
+  "n_trainable_params": 923706,
+  "evaluated_epoch": "last"
+}

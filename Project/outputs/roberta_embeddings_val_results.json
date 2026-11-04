@@ -1,0 +1,17 @@
+{
+  "model": "RoBERTa",
+  "feature_extraction": "embeddings",
+  "split": "validation",
+  "accuracy": 0.6853,
+  "macro_precision": 0.694,
+  "macro_recall": 0.6983,
+  "macro_f1": 0.6932,
+  "extractor": "tokenizer kata + embedding acak, arsitektur RoBERTa dari config flax-community/indonesian-roberta-base, dilatih dari nol (tanpa bobot pretrained)",
+  "vocab_size": 5718,
+  "max_len": 64,
+  "epochs": 15,
+  "lr": 0.0001,
+  "batch_size": 32,
+  "n_trainable_params": 90097158,
+  "evaluated_epoch": "last"
+}

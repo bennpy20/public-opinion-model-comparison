@@ -1,0 +1,16 @@
+{
+  "model": "BiLSTM",
+  "feature_extraction": "embeddings",
+  "split": "validation",
+  "accuracy": 0.6607,
+  "macro_precision": 0.6836,
+  "macro_recall": 0.6684,
+  "macro_f1": 0.6668,
+  "extractor": "nn.Embedding level kata 128-dim (acak, trainable, end-to-end)",
+  "emb_dim": 128,
+  "max_len": 64,
+  "vocab_size": 5716,
+  "epochs": 15,
+  "n_trainable_params": 997382,
+  "evaluated_epoch": "last"
+}

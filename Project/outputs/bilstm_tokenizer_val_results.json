@@ -1,0 +1,16 @@
+{
+  "model": "BiLSTM",
+  "feature_extraction": "tokenizer",
+  "split": "validation",
+  "accuracy": 0.7147,
+  "macro_precision": 0.7318,
+  "macro_recall": 0.7218,
+  "macro_f1": 0.7197,
+  "extractor": "tokenizer subword + embedding layer indobenchmark/indobert-base-p1 (beku) -> BiLSTM dilatih",
+  "emb_dim": 768,
+  "max_len": 128,
+  "vocab_size": 50000,
+  "epochs": 15,
+  "n_trainable_params": 921094,
+  "evaluated_epoch": "last"
+}

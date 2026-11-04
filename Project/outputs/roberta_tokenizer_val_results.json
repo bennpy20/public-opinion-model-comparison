@@ -1,0 +1,17 @@
+{
+  "model": "RoBERTa",
+  "feature_extraction": "tokenizer",
+  "split": "validation",
+  "accuracy": 0.7829,
+  "macro_precision": 0.7818,
+  "macro_recall": 0.8025,
+  "macro_f1": 0.7898,
+  "extractor": "tokenizer + bobot pretrained flax-community/indonesian-roberta-base, fine-tuning penuh",
+  "vocab_size": 50265,
+  "max_len": 128,
+  "epochs": 15,
+  "lr": 2e-05,
+  "batch_size": 32,
+  "n_trainable_params": 124650246,
+  "evaluated_epoch": "last"
+}

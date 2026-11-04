@@ -1,0 +1,17 @@
+{
+  "model": "IndoBERT",
+  "feature_extraction": "tokenizer",
+  "split": "validation",
+  "accuracy": 0.7829,
+  "macro_precision": 0.7885,
+  "macro_recall": 0.7989,
+  "macro_f1": 0.7922,
+  "extractor": "tokenizer + bobot pretrained indobenchmark/indobert-base-p1, fine-tuning penuh",
+  "vocab_size": 30521,
+  "max_len": 128,
+  "epochs": 15,
+  "lr": 2e-05,
+  "batch_size": 32,
+  "n_trainable_params": 124445958,
+  "evaluated_epoch": "last"
+}
